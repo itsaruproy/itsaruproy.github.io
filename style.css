@@ -25,8 +25,25 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h1 {
+    /** TEXT GRADIENT */
+    color: #cdeebc;
+    background-image: -webkit-linear-gradient(
+        0deg,
+        #cdeebc 28%,
+        #0a82cc 75%,
+        #231e73 98%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    
 }
 
 p {
@@ -70,7 +87,7 @@ a {
     transition: background-color 0.2s;
 }
 
-.about-me{
+.about-me {
     display: flex;
     gap: 4px;
 }
